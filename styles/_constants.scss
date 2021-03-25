@@ -1,0 +1,11 @@
+// Colors
+$primary-color: #272727;
+$secondary-color: #ff652f;
+$white: #fff;
+
+//Fonts
+$primary-font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+@mixin transition-ease {
+    transition: all 0.5s ease-in-out;
+}

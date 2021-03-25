@@ -1,0 +1,41 @@
+@import "./reset";
+@import "./constants";
+@import "./home";
+@import "./navigation-menu";
+@import "./footer";
+@import "./about";
+
+body {
+  background: $primary-color;
+  color: $white;
+  height: 100vh;
+  font-family: $primary-font;
+  line-height: 1;
+}
+
+header {
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  padding: 1rem;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 400;
+}
+
+.text-secondary{
+  color: $secondary-color;
+}
+
+a {
+  color: $white;
+  text-decoration: none;
+}

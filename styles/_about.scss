@@ -1,0 +1,31 @@
+.about-bio-image {
+  height: 50vh;
+  width: 100vw;
+  overflow: hidden;
+  text-align: center;
+  padding-top: 40vh;
+  padding-bottom: 20px;
+  background: linear-gradient(
+      90deg,
+      rgba($primary-color, 0.9),
+      rgba($primary-color, 0.5)
+    ),
+    url("../assets/images/img1.png") center top no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  p{
+      width: 50vh;
+  }
+}
+
+.jobs{
+    width: 60vw;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    margin: auto;
+}

@@ -1,0 +1,37 @@
+.home {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+  padding-top: 40vh;
+  background: linear-gradient(
+      90deg,
+      rgba($primary-color, 0.9),
+      rgba($primary-color, 0.5)
+    ),
+    url("../assets/images/img1.png") center top no-repeat;
+  background-size: cover;
+
+  &-name {
+    font-size: 4rem;
+    margin: 1rem auto;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid $white;
+
+    &-last {
+      color: $secondary-color;
+    }
+  }
+}
+
+@media (max-height: 736px){
+  .home{
+    padding-top: 35vh;
+  }
+}
+
+@media (max-height: 667px){
+  .home{
+    padding-top: 30vh;
+  }
+}
