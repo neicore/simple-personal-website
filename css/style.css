@@ -203,7 +203,7 @@ footer .social-icons a:last-child {
   text-align: center;
   padding-top: 40vh;
   padding-bottom: 20px;
-  background: linear-gradient(90deg, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.5)), url("../assets/images/img1.png") center top no-repeat;
+  background: linear-gradient(90deg, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.5)), url("./../assets/images/img1.png") center top no-repeat;
   background-size: cover;
   display: flex;
   flex-direction: column;
